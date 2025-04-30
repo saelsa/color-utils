@@ -1,6 +1,6 @@
 # color-utils
 
-A simple utility library for formatting numbers and dates in JavaScript.
+A simple utility library for working with colors in javascript. 
 
 ## Installation
 
