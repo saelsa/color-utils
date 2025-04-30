@@ -1,8 +1,0 @@
-
-{
-    "name": "@iltsp/color-utils",
-    "version": "0.1.1",
-    "license": "MIT",
-    "exports": "./color-utils.js"
-  }
-

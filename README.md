@@ -18,7 +18,7 @@ npm install @iltsp/color-utils
 
 ## Usage
 
-### Format Numbers
+### Adjust colors 
 
 ```javascript
 import { adjustColor } from '@iltsp/color-utils';

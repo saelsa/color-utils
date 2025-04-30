@@ -1,33 +1,36 @@
 {
-    "name": "@iltsp/color-utils",
-    "version": "0.1.0",
-    "description": "A simple utility library for working with colors",
-    "type": "module",
-    "exports": "./color-utils.js",
-    "files": [
-        "color-utils.js"
-    ],
-    "scripts": {
-        "test": "node --test"
-    },
-    "keywords": [
-        "formatting",
-        "dates",
-        "numbers",
-        "utilities"
-    ],
-    "author": "saelsa",
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/saelsa/color-utils"
-    },
-    "bugs": {
-        "url": "https://github.com/saelsa/color-utils/issues"
-    },
-    "homepage": "https://github.com/saelsa/color-utils#readme",
-    "publishConfig": {
-        "access": "public"
-    },
-    "packageManager": "npm@10.8.1+sha512.0e9d42e92bd2318408ed81eaff2da5f78baf23ee7d12a6eed44a6e2901d0f29d7ab715d1b918ade601f72e769a824d9a5c322383f22bbbda5dd396e79de2a077"
+  "name": "color-utils",
+  "version": "0.1.0",
+  "description": "A simple utility library for working with colors",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./color-utils.js"
+    }
+  },
+  "files": [
+    "color-utils.js"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "color",
+    "color-utils",
+    "utilities"
+  ],
+  "author": "saelsa",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saelsa/color-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/saelsa/color-utils/issues"
+  },
+  "homepage": "https://github.com/saelsa/color-utils#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "packageManager": "npm@10.8.1+sha512.0e9d42e92bd2318408ed81eaff2da5f78baf23ee7d12a6eed44a6e2901d0f29d7ab715d1b918ade601f72e769a824d9a5c322383f22bbbda5dd396e79de2a077"
 }
