@@ -5,15 +5,19 @@
  * @param {string} color The color to adjust, in either RGB or HEX or as CSS variable.
  * @param {number} percent The percentage to adjust the color by. Positive values lighten the color,
  *                         negative values darken the color. The value should be between -1 and 1.
+ * @param {function} getStyle A function to get the computed style of the document. This is used to
+ *                             retrieve the value of CSS variables. By default, it uses
+ *                             `getComputedStyle(document.documentElement)`.
  * @returns The adjusted color in RGB format.
  */
-export function adjustColor(color, percent) {
+export function adjustColor(color, percent, getStyle = () => getComputedStyle(document.documentElement)) {
     // Helper: Convert CSS variable to color
     if (color.startsWith('--')) {
-      const style = getComputedStyle(document.documentElement);
-      color = style.getPropertyValue(color).trim();
+        const style = getStyle();
+        color = style.getPropertyValue(color).trim();
     }
-  
+
+
     // Helper: Convert hex to RGB
     function hexToRgb(hex) {
       hex = hex.replace('#', '');

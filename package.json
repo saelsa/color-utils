@@ -1,5 +1,5 @@
 {
-    "name": "@saelsa/color-utils",
+    "name": "@iltsp/color-utils",
     "version": "0.1.0",
     "description": "A simple utility library for working with colors",
     "type": "module",
@@ -16,7 +16,7 @@
         "numbers",
         "utilities"
     ],
-    "author": "Your Name",
+    "author": "saelsa",
     "license": "MIT",
     "repository": {
         "type": "git",
