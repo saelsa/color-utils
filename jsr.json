@@ -1,6 +1,8 @@
 
 {
-    "name": "@saelsa/color-utils",
+    "name": "@iltsp/color-utils",
     "version": "0.1.0",
+    "license": "MIT",
     "exports": "./color-utils.js"
   }
+
