@@ -1,5 +1,5 @@
 {
-  "name": "color-utils",
+  "name": "il-color-utils",
   "version": "0.1.0",
   "description": "A simple utility library for working with colors",
   "type": "module",
